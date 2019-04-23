@@ -1,5 +1,5 @@
 Bootstrap: docker
-Container: ubuntu:latest
+From: ubuntu:latest
 
 %post
     pip install boutiques
